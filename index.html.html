@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy | GROWZIO Books</title>
+  <meta name="description" content="Privacy Policy for GROWZIO Books - Your trusted source for premium digital books in Pakistan." />
+  <meta name="keywords" content="privacy policy, data protection, GROWZIO books, digital books Pakistan" />
+  <meta name="author" content="GROWZIO">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#81B441',      // Envato Green
+            secondary: '#A8E063',    // Mint Accent
+            dark: '#111111',          // Deep Black
+            lightbg: '#1A1A1A',       // Dark Gray
+            lighttext: '#FFFFFF',     // White
+            bordergray: '#CCCCCC'   // Light Gray
+          },
+          fontFamily: {
+            'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            'serif': ['Source Serif Pro', 'Times New Roman', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <style>
+    /* Global Styles */
+    :root {
+      --primary: #81B441;      /* Brand Highlight - Envato Green */
+      --primary-dark: #6aa034;   /* Darker shade for hover */
+      --secondary: #A8E063;    /* Soft Accent - Mint Accent */
+      --secondary-dark: #8ccf4a; /* Darker shade for hover */
+      --dark: #111111;          /* Primary Background - Deep Black */
+      --light-bg: #1A1A1A;       /* Section Background - Dark Gray */
+      --light-text: #FFFFFF;     /* Text / Icons - White */
+      --border-color: #CCCCCC; /* Borders / Soft Elements - Light Gray */
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body { 
+      scroll-behavior: smooth; 
+      background-color: var(--dark);
+      color: var(--light-text);
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      line-height: 1.7;
+    }
+    
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+    
+    .section {
+      padding: 4rem 0;
+    }
+    
+    .section:nth-child(even) {
+      background-color: var(--light-bg);
+    }
+    
+    .section-title {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      position: relative;
+      display: inline-block;
+    }
+    
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 4px;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+    
+    .section-subtitle {
+      text-align: center;
+      color: var(--border-color);
+      margin-bottom: 3rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .policy-content {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--light-bg);
+      border-radius: 12px;
+      padding: 3rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+    
+    .policy-section {
+      margin-bottom: 2.5rem;
+    }
+    
+    .policy-section h2 {
+      font-size: 1.8rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.5rem;
+    }
+    
+    .policy-section h3 {
+      font-size: 1.3rem;
+      color: var(--light-text);
+      margin: 1.5rem 0 0.8rem;
+    }
+    
+    .policy-section p {
+      margin-bottom: 1rem;
+      color: var(--border-color);
+    }
+    
+    .policy-section ul, .policy-section ol {
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
+      color: var(--border-color);
+    }
+    
+    .policy-section li {
+      margin-bottom: 0.5rem;
+    }
+    
+    .last-updated {
+      text-align: center;
+      color: var(--border-color);
+      font-style: italic;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #333;
+    }
+    
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 0 0 15px rgba(37, 211, 102, 0.35);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .policy-content {
+        padding: 2rem 1.5rem;
+      }
+      
+      .section-title {
+        font-size: 2rem;
+      }
+      
+      .policy-section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-dark text-lighttext">
+  
+  <!-- Policy Content -->
+  <section class="section mt-8">
+    <div class="container">
+      <div class="text-center" data-aos="fade-up">
+        <h1 class="section-title">Privacy Policy</h1>
+        <p class="section-subtitle">How we collect, use, and protect your information</p>
+      </div>
+      
+      <div class="policy-content">
+        <div class="policy-section">
+          <h2>1. Introduction</h2>
+          <p>Welcome to GROWZIO Books ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or purchase our digital products.</p>
+          <p>By accessing or using our services, you agree to the terms of this Privacy Policy. If you do not agree with the terms, please do not access the site or use our services.</p>
+        </div>
+        
+        <div class="policy-section">
+          <h2>2. Information We Collect</h2>
+          
+          <h3>Personal Information</h3>
+          <p>When you make a purchase or contact us, we may collect personal information that can identify you, such as:</p>
+          <ul>
+            <li>Name and contact details (email address, phone number)</li>
+            <li>Payment information (processed securely through our payment providers)</li>
+            <li>Communication preferences</li>
+            <li>Transaction history</li>
+          </ul>
+          
+          <h3>Automatically Collected Information</h3>
+          <p>When you visit our website, we may automatically collect certain information about your device and usage, including:</p>
+          <ul>
+            <li>IP address and location data</li>
+            <li>Browser type and version</li>
+            <li>Pages visited and time spent on site</li>
+            <li>Referring website information</li>
+          </ul>
+        </div>
+        
+        <div class="policy-section">
+          <h2>3. How We Use Your Information</h2>
+          <p>We use the information we collect for various purposes, including:</p>
+          <ul>
+            <li>Processing your orders and delivering digital products</li>
+            <li>Providing customer support and responding to inquiries</li>
+            <li>Sending important updates about your orders or our services</li>
+            <li>Improving our website, products, and customer experience</li>
+            <li>Preventing fraud and ensuring security</li>
+            <li>Complying with legal obligations</li>
+          </ul>
+        </div>
+        
+        <div class="policy-section">
+          <h2>4. Information Sharing and Disclosure</h2>
+          <p>We do not sell, trade, or rent your personal information to third parties. We may share your information in the following circumstances:</p>
+          <ul>
+            <li><strong>Service Providers:</strong> With trusted third parties who assist us in operating our website, conducting business, or serving you, so long as those parties agree to keep this information confidential.</li>
+            <li><strong>Legal Requirements:</strong> When required by law or to protect our rights, property, or safety, or that of others.</li>
+            <li><strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of all or a portion of our assets.</li>
+          </ul>
+        </div>
+        
+        <div class="policy-section">
+          <h2>5. Data Security</h2>
+          <p>We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+        </div>
+        
+        <div class="policy-section">
+          <h2>6. Your Rights and Choices</h2>
+          <p>Depending on your location, you may have certain rights regarding your personal information, including:</p>
+          <ul>
+            <li>Accessing and reviewing the information we hold about you</li>
+            <li>Correcting inaccurate or incomplete information</li>
+            <li>Requesting deletion of your personal information</li>
+            <li>Objecting to or restricting certain processing activities</li>
+            <li>Withdrawing consent where processing is based on consent</li>
+          </ul>
+          <p>To exercise these rights, please contact us using the information provided in the "Contact Us" section.</p>
+        </div>
+        
+        <div class="policy-section">
+          <h2>7. Cookies and Tracking Technologies</h2>
+          <p>We use cookies and similar tracking technologies to enhance your experience on our website, analyze trends, administer the website, and gather demographic information. You can control the use of cookies at the individual browser level.</p>
+        </div>
+        
+        <div class="policy-section">
+          <h2>8. Third-Party Links</h2>
+          <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these external sites. We encourage you to review the privacy policies of any website you visit.</p>
+        </div>
+        
+        <div class="policy-section">
+          <h2>9. Children's Privacy</h2>
+          <p>Our services are not directed to individuals under the age of 16. We do not knowingly collect personal information from children under 16. If we become aware that we have collected personal information from a child under 16, we will take steps to delete such information.</p>
+        </div>
+        
+        <div class="policy-section">
+          <h2>10. International Data Transfers</h2>
+          <p>Your information may be transferred to and maintained on computers located outside of your state, province, country, or other governmental jurisdiction where the data protection laws may differ. By using our services, you consent to such transfer.</p>
+        </div>
+        
+        <div class="policy-section">
+          <h2>11. Changes to This Privacy Policy</h2>
+          <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+        </div>
+        
+        <div class="policy-section">
+          <h2>12. Contact Us</h2>
+          <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
+          <ul>
+            <li>Email: privacy@growzio.com</li>
+            <li>WhatsApp: +92 319 5179084</li>
+            <li>Address: Office #12, Commercial Area, DHA Phase 6, Karachi, Pakistan</li>
+          </ul>
+        </div>
+        
+        <div class="last-updated">
+          <p>Last Updated: April 15, 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-gray-300 py-12 mt-16 border-t border-primary">
+    <div class="container">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-white text-lg font-bold mb-4">GROWZIO BOOKS</h3>
+          <p class="mb-4">Your trusted source for premium digital books in Pakistan at affordable prices.</p>
+        </div>
+        
+        <div>
+          <h3 class="text-white text-lg font-bold mb-4">QUICK LINKS</h3>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="text-gray-300 hover:text-primary">Home</a></li>
+            <li><a href="index.html#books" class="text-gray-300 hover:text-primary">Books</a></li>
+            <li><a href="index.html#about" class="text-gray-300 hover:text-primary">About Us</a></li>
+            <li><a href="index.html#contact" class="text-gray-300 hover:text-primary">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-white text-lg font-bold mb-4">POLICIES</h3>
+          <ul class="space-y-2">
+            <!-- UPDATED: These links now redirect to Instagram -->
+            <li><a href="https://www.instagram.com" class="text-gray-300 hover:text-primary">Privacy Policy</a></li>
+            <li><a href="https://www.instagram.com" class="text-gray-300 hover:text-primary">Terms of Service</a></li>
+            <li><a href="https://www.instagram.com" class="text-gray-300 hover:text-primary">Refund Policy</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-white text-lg font-bold mb-4">CONTACT</h3>
+          <ul class="space-y-2">
+            <li><i class="fa-brands fa-whatsapp text-green-500 mr-2"></i> WhatsApp: +92 319 5179084</li>
+            <li><i class="fa-solid fa-envelope text-primary mr-2"></i> Email: info@growzio.com</li>
+            <li><i class="fa-solid fa-location-dot text-primary mr-2"></i> Karachi, Pakistan</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-600 mt-8 pt-8 text-center">
+        <p>© 2025 GROWZIO Books - Premium Digital Books Pakistan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating -->
+  <a href="https://wa.me/923195179084" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</body>
+</html>
